@@ -1,0 +1,22 @@
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      width: 200px;
+      padding: 10px 0;
+      border-radius: 5px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  
